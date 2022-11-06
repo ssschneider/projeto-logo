@@ -20,7 +20,7 @@ Para o meu projeto escolhi fazer uma loja virtual de produtos pessoais, autocuid
 
 ## 🔗 Acesso 
 
-Para acessar a LOGO, basta clicar aqui
+Para acessar a LOGO, basta <a href="https://ssschneider.github.io/projeto-logo/" target="_blank">clicar aqui</a>!
 
 ##  📱 Demo
 
