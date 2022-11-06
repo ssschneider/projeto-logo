@@ -1,0 +1,80 @@
+.hero {
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.hero.makeup {
+    background: url("../images/hero-maquiagem.svg") center center fixed;
+}
+
+.hero.jewels {
+    background: url("../images/hero-joalheria.svg") center center fixed;
+}
+
+.hero.couture {
+    background: url("../images/hero-couture.svg") center center fixed;
+}
+
+.products {
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    padding: 8rem;
+    text-transform: uppercase
+}
+
+.products h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.products .card {
+    border-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    max-width: 280px;
+    margin: 0 auto;
+    transition: var(--default-transition);
+}
+
+.products .card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.products .card img {
+    max-width: 250px;
+}
+
+.products .card h5 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.products .card p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: var(--black);
+}
+
+.products .card-footer {
+    background-color: var(--black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.products .card-footer small {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+@media (max-width: 450px) {
+    .products h2 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+}

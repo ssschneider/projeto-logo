@@ -1,0 +1,62 @@
+.hero h5.subtitle {
+    font-size: 3.2rem;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--white);
+}
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+    border-top: 2px solid var(--white);
+    padding-top: 2rem;
+}
+
+.latest .makeup, .latest .jewels, .latest .couture {
+    position: relative;
+}
+
+.latest .makeup {
+    background: url("../images/parallax-01.jpg") center center fixed;
+    height: 100vh;
+    width: 98vw;
+    background-size: cover;
+}
+
+.latest .jewels {
+    background: url("../images/parallax-02.webp") center center fixed;
+    height: 100vh;
+    width: 98vw;
+    background-size: cover;
+}
+
+.latest .couture {
+    background: url("../images/parallax-03.png") center center fixed;
+    height: 100vh;
+    width: 98vw;
+    background-size: cover;
+}
+
+.latest .latest-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.latest .latest-info h5 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.latest .latest-info h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}

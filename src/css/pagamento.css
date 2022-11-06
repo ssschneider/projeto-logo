@@ -1,0 +1,54 @@
+.pagamento {
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 4rem 0;
+    text-transform: uppercase;
+}
+
+.pagamento h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: 4rem;
+}
+
+.pagamento .accordion-header button, .pagamento .accordion-item {
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.pagamento .accordion-header button {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.pagamento .accordion-item {
+    font-size: 2.4rem;
+}
+
+.pagamento .accordion-body a {
+    display: flex;
+    justify-content: center;
+}
+
+.pagamento .accordion-body:last-child {
+    padding: 2rem;
+    border-bottom: 1px solid var(--white);
+}
+
+.pagamento .accordion-body label {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 3.2rem;
+}
+
+.pagamento .accordion-body input {
+    color: var(--black);
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
