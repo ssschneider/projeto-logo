@@ -26,27 +26,52 @@
                 </a>
             </h1>
             <div class="user-items">
-                <img src="../images/cart.svg" alt="Carrinho de Compras">
-                <img src="../images/user.svg" alt="Entrar">
+                <a href="carrinho.html">
+                    <img src="../images/cart.svg" alt="Carrinho de Compras">
+                </a>
+                <button href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="../images/user.svg" alt="Entrar">
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog  modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h2 class="modal-title " id="exampleModalLabel">Entrar</h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <label for="login">Email de login:</label>
+                          <input type="email" name="login" id="login" placeholder="seuemail@email.com">
+
+                          <label for="senha">Senha:</label>
+                          <input type="password" name="senha" id="senha" placeholder="**********">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary btn-entrar" data-bs-dismiss="modal">Entrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
 
         <nav>
             <ul>
                 <li>
-                    <a href="src/html/maquiagem.html">maquiagem</a>
+                    <a href="maquiagem.html">maquiagem</a>
                 </li>
                 <li>
-                    <a href="src/html/joalheria.html">joalheria</a>
+                    <a href="joalheria.html">joalheria</a>
                 </li>
                 <li>
-                    <a href="src/html/haute-couture.html">haute-couture</a>
+                    <a href="haute-couture.html">haute-couture</a>
                 </li>
                 <li>
-                    <a href="src/html/especialistas.html">especialistas</a>
+                    <a href="especialistas.html">especialistas</a>
                 </li>
                 <li>
-                    <a href="src/html/manifesto.html">manifesto</a>
+                    <a href="manifesto.html">manifesto</a>
                 </li>
             </ul>
         </nav>
